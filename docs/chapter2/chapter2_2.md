@@ -30,12 +30,6 @@
 ## 3.3 多种作用力的协同与平衡
 蛋白质结构的稳定性来源于各种作用力的精细平衡与协同。
 
-<div align=center>
-<img width="300" src="./images/1_1.jpeg"/>
-</div>
-<div align=center>图3.1 我是图片名称</div>
-
-
 
 
 
