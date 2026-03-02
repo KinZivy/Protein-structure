@@ -22,8 +22,6 @@ features:
     details: 聚焦蛋白质各级结构特征，结合实验与预测方法解析构象规律
   - title: 📊 模型评估
     details: 系统讲解蛋白质结构模型的质量评估工具与核心指标
-  - title: 📚 开源免费
-    details: 教程与代码全托管于GitHub，无任何形式收费
   - title: 🔬 实战导向
     details: 结合PyMOL/ChimeraX等工具，注重实操能力培养
   - title: 📈 前沿同步
