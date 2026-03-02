@@ -36,12 +36,21 @@ export default defineConfig({
         }
       }
     },
-    // 核心修改：新增第x章侧边栏链接，与文件路径匹配
+    // 🔥 核心修改：第二章改为父菜单，包含两个子页面
     sidebar: [
       {
         items: [
+          // 第一章：单一页面
           { text: '第1章：蛋白质的功能和结构', link: '/chapter1/' },
-          { text: '第2章：氨基酸的组成和种类', link: '/chapter2/' } 
+          // 第二章：父菜单（可折叠），包含2.1和2.2子页面
+          {
+            text: '第2章：氨基酸的组成和种类',
+            // 配置子菜单
+            items: [
+              { text: '2.1 氨基酸的基本化学结构', link: '/chapter2/chapter2_1' },
+              { text: '2.2 Ramachandran 构象筛选标准', link: '/chapter2/chapter2_2' }
+            ]
+          }
         ]
       }
     ],
