@@ -42,7 +42,7 @@
 
 <!-- VitePress 图片居中+尺寸优化 -->
 <div align="center">
-  <img src="/public/images/1_1.png" width="600" alt="蛋白质结构层次"/>
+  <img src="/images/1_1.png" alt="蛋白质结构层次" width="600" />
   <p style="margin-top: 8px; font-size: 14px; color: #666;">图1 蛋白质结构层次</p>
 </div>
 
