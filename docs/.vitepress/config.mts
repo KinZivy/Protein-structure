@@ -10,7 +10,7 @@ export default defineConfig({
   description: "Datawhale开源教程：蛋白质结构与功能解析实战",
   base: baseConfig,
   markdown: {
-    math: true
+    math: true // 保留数学公式支持（适配第二章的pKa、pI等公式）
   },
   themeConfig: {
     logo: '/datawhale-logo.png',
@@ -36,11 +36,12 @@ export default defineConfig({
         }
       }
     },
-    // 关键修正：侧边栏链接改为 /chapter1/（匹配实际路径）
+    // 核心修改：新增第x章侧边栏链接，与文件路径匹配
     sidebar: [
       {
         items: [
-          { text: '第1章：蛋白质的功能和结构', link: '/chapter1/' }, // 移除 chapters/ 层级
+          { text: '第1章：蛋白质的功能和结构', link: '/chapter1/' },
+          { text: '第2章：氨基酸的组成和种类', link: '/chapter2/' } 
         ]
       }
     ],
