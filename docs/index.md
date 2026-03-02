@@ -1,18 +1,18 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "蛋白质结构分析"
   text: "从结构到功能的系统解析"
   tagline: 探索蛋白质三维构象与生物学功能的关联
-  image:
-    src: /protein_structure.png # 替换为你的项目封面图
-    alt: 蛋白质结构分析
+  # 临时注释封面图（避免因缺失图片导致构建失败，后续上传后取消注释）
+  # image:
+  #   src: /protein_structure.png
+  #   alt: 蛋白质结构分析
   actions:
     - theme: brand
       text: 快速入门
-      link: /chapters/chapter1 # 指向你第一章的文档路径
+      link: /chapter1/ # 关键修正：移除 chapters/ 层级
     - theme: alt
       text: 项目仓库
       link: https://github.com/KinZivy/Protein-structure
@@ -36,7 +36,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: 'https://github.com/KinZivy.png', // 替换为你的GitHub头像链接
+    avatar: 'https://github.com/KinZivy.png',
     name: 'KinZivy',
     title: '项目负责人',
     links: [
@@ -44,7 +44,7 @@ const members = [
     ]
   },
   {
-    avatar: 'https://www.github.com/Sm1les.png', // 示例贡献者，可修改/删除
+    avatar: 'https://www.github.com/Sm1les.png',
     name: '贡献者1',
     title: '核心开发者',
     links: [
