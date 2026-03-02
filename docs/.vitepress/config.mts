@@ -41,7 +41,7 @@ export default defineConfig({
       {
         items: [
           // 第一章：单一页面
-          { text: '第1章：蛋白质概述', link: '/chapter1/' },
+          { text: '第1章：蛋白质概述', link: '/chapter1/chapter1_1' },
           // 第二章：3个子页面
           {
             text: '第2章：氨基酸',
@@ -51,9 +51,9 @@ export default defineConfig({
               { text: '2.3 氨基酸之间的键作用', link: '/chapter2/chapter2_3' }
             ]
           },
-          { text: '第3章：二级结构', link: '/chapter3/' },
-          { text: '第4章：三级结构', link: '/chapter4/' },
-          { text: '第5章：四级结构', link: '/chapter5/' },
+          { text: '第3章：二级结构', link: '/chapter3/chapter3_1' },
+          { text: '第4章：三级结构', link: '/chapter4/chapter4_1' },
+          { text: '第5章：四级结构', link: '/chapter5/chapter5_1' },
         ]
       }
     ],
