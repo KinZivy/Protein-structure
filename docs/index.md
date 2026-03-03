@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速入门
-      link: /chapter1/ # 关键修正：移除 chapters/ 层级
+      link: /chapter1/chapter1_1   #快速跳转第一章
     - theme: alt
       text: 项目仓库
       link: https://github.com/KinZivy/Protein-structure
